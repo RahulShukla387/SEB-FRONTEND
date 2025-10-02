@@ -7,7 +7,7 @@ import axios from "axios"
 import './App.css'
 import Navbar from './Navbar'
 import Footer from './Footer'
-import Landing from './landingPage/landing'
+import Landing from './landingPage/Landing'
 import { Route, Routes } from 'react-router-dom'
 import Member from './Members/Member'
 import Event from './Events/Event'
