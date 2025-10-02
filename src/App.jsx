@@ -13,7 +13,7 @@ import Member from './Members/Member'
 import Event from './Events/Event'
 import Gallery from './Gallery/Gallery'
 import Notice from './Notice/Notice'
-import Upload from './Upload/upload'
+import Upload from './Upload/Upload.jsx'
 
 import DhishaanEvent from './Events/DhishaanEvent'
 import DrishyaaEvent from './Events/DrishyaaEvent'
