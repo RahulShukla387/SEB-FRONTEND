@@ -21,6 +21,7 @@ import DrishyaaEvent from './Events/DrishyaaEvent'
 import UploadNotice from './Upload/UploadNotice'
 import UploadPoster from './Upload/UploadPoster'
 import CurrentEvent from './Events/CurrentEvent'
+import { apiFetch } from './api'
 
 function App() {
   return (

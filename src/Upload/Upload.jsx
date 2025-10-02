@@ -2,6 +2,7 @@
 import { Typography } from '@mui/material';
 import { Card, CardContent, CardMedia, Grid } from "@mui/material";
 import { useNavigate } from 'react-router-dom';
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
 
 function Upload() {
 
@@ -51,7 +52,7 @@ letterSpacing: "-0.5px",
             <div className="flex space-x-4 justify-center mt-6">
   {/* Sign In Button */}
   <a
-    href="http://localhost:5000/auth/google"
+    href={`${BACKEND_URL}/auth/google`}
     className="px-6 py-2 bg-red-500 text-white font-semibold rounded-lg shadow-md hover:bg-red-600 transition-colors flex items-center space-x-2"
   >
     {/* Optional Google Icon */}
@@ -82,7 +83,7 @@ letterSpacing: "-0.5px",
 
   {/* Logout Button */}
   <a
-    href="http://localhost:5000/logout"
+    href={`${BACKEND_URL}/logout`}
     className="px-6 py-2 bg-gray-200 text-gray-800 font-semibold rounded-lg shadow-md hover:bg-gray-300 transition-colors"
   >
     Logout

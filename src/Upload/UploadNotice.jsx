@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { Typography } from '@mui/material';
 import Notice from "../Notice/Notice";
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
 function UploadNotice() {
    const [user, setUser] = useState(null);
   const [file, setFile] = useState(null);
@@ -11,7 +12,7 @@ function UploadNotice() {
 
   // Fetch current user
   useEffect(() => {
-    axios.get("http://localhost:5000/api/debug", { withCredentials: true })
+    axios.get(`${BACKEND_URL}/api/debug`, { withCredentials: true })
       .then(res => setUser(res.data.user))
       .catch(err => console.error(err));
   }, []);
@@ -25,7 +26,7 @@ function UploadNotice() {
     formData.append("noticeTitle", title);
 
     try {
-      const res = await axios.post("http://localhost:5000/api/UploadNotice", formData, {
+      const res = await axios.post(`${BACKEND_URL}/api/UploadNotice`, formData, {
         withCredentials: true,
         headers: { "Content-Type": "multipart/form-data" },
       });
@@ -41,11 +42,10 @@ function UploadNotice() {
   if (!user) {
     return (
       <div>
-        <a href="http://localhost:5000/auth/google">Login with Google</a>
+        <a href={`${BACKEND_URL}/auth/google`}>Login with Google</a>
       </div>
     );
   }
-
   if (user.role !== "admin") {
     //  alert(<h1>Login With Admin Account to upload. </h1>);
     return <p>Access denied. Only admin can upload notices.</p>;
@@ -94,7 +94,7 @@ function UploadNotice() {
 
     <div className="text-center mt-4">
       <a
-        href="http://localhost:5000/logout"
+         href={`${BACKEND_URL}/logout`}
         className="text-red-500 hover:text-red-700 font-medium"
       >
         Logout
