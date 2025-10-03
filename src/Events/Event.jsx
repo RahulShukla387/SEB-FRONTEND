@@ -44,7 +44,7 @@ letterSpacing: "-0.5px",
 
 </Typography>
       <h2  className=' text-center font-serif text-gray-500 ' >Events create a platform for ideas to connect, grow, and inspire change.  </h2>    
-      <h3  className=' text-center font-serif text-gray-500 ' >The Social Engineer’s Board organizes various events throughout the year to make a real impact on students, <br /> and help them become well-rounded engineers. </h3>    
+      <h3  className=' text-center font-serif text-gray-500 ' >The Social Engineers' Board organizes various events throughout the year to make a real impact on students, <br /> and help them become well-rounded engineers. </h3>    
 
 
                     <Grid container spacing={25} justifyContent="center" sx={{ mt: 2 }}>

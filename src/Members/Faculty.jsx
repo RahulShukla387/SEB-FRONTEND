@@ -92,9 +92,9 @@ function Faculty() {
                align="center"
                sx={{ fontFamily: 'serif', color: 'gray', mb: 1, mt: 4 }}
              >
-               The Social Engineer's Board
+               The Social Engineers' Board
              </Typography>  
-              {/* <h3  className='text-center font-serif text-gray-500 ' >The Social Engineer's Board </h3>   */}
+              {/* <h3  className='text-center font-serif text-gray-500 ' >The Social Engineers' Board </h3>   */}
 
     <Grid container spacing={25} justifyContent="center" sx={{ mt: 2 }}>
       {members.map((member, index) => (

@@ -101,80 +101,11 @@ const Icon = ({ name, className }) => {
   return (
   <>
             <section  id="about" className="mt-[8%] px-[5%]">
-              {/* <h1 className='text-center font-serif text-gray-500 '> The Social Engineer's Board </h1>   */}
+              {/* <h1 className='text-center font-serif text-gray-500 '> The Social Engineers' Board </h1>   */}
                 <div className="container mx-auto px-6 text-center">
                     {/* <h2 className="section-title">Who We Are</h2> */}
-                    <p className="section-subtitle">The Social Engineer's Board is a student-led society at MMMUT dedicated to fostering personal and professional growth. We are a community of thinkers, leaders, and helpers, passionate about making a positive impact.</p>
+                    <p className="section-subtitle">The Social Engineers' Board is a student-led society at MMMUT dedicated to fostering personal and professional growth. We are a community of thinkers, leaders, and helpers, passionate about making a positive impact.</p>
                  
-        
-
-      {/* Prominent Images Carousel */}
-      {/* <Box
-        sx={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          width: "100%",
-          mt: 0,
-          minHeight: { xs: 140, sm: 160, md: 220, lg: 270 },
-        }}
-      >
-        <Swiper
-         speed={1000}
-          className="image-swiper"
-          modules={[Autoplay]}
-          autoplay={{ delay: 2200, disableOnInteraction: false }}
-          loop={true}
-          slidesPerView={2}
-          spaceBetween={24}
-          breakpoints={{
-            600: { slidesPerView: 2 },
-            900: { slidesPerView: 3 }
-          }}
-        >
-          {/* Repeat for each image */}
-          {/* {[
-            "/images/seb bg1.jpg",
-            "/images/mmmutLogo.jpeg",
-            "/images/seblogo-removebg-preview.png",
-            "/images/TechnicalSubcouncil.jpeg",
-          ].map((src, idx) => (
-            <SwiperSlide key={src}>
-              <Box
-                sx={{
-                  ml: 15,
-                  width: { xs: 110, sm: 120, md: 130, lg: 150 },
-                  height: { xs: 110, sm: 120, md: 130, lg: 150 },
-                  borderRadius: "50%",
-                  border: "3px solid #6417E1",
-                  boxShadow: "0px 4px 20px 1px rgba(100,23,225,0.07)",
-                  overflow: "hidden",
-                  background: "#fff",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  transition: "box-shadow 0.25s, transform 0.25s",
-                  "&:hover": {
-                    boxShadow: "0px 6px 30px 2px rgba(100,23,225,0.21)",
-                    transform: "scale(1.01)"
-                  }
-                }}
-              >
-                <img
-                  src={src.replace(/\\/g, "/")}
-                  alt={`Highlight ${idx + 1}`}
-                  style={{
-                    width: "100%",
-                    height: "100%",
-                    objectFit: "cover",
-                    borderRadius: "50%",
-                  }}
-                />
-              </Box>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      </Box> */} 
 
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                         {/* Card 1 */}

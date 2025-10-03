@@ -63,7 +63,7 @@ const Home = () => {
                     
                     {/* Sub-Headline: Clear mission statement */}
                     <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
-                        The Social Engineer's Board is a student-led society at MMMUT dedicated to fostering <strong className="font-semibold">holistic</strong> personal and professional growth through community action and skill refinement.
+                        The Social Engineers' Board is a student-led society at MMMUT dedicated to fostering <strong className="font-semibold">holistic</strong> personal and professional growth through community action and skill refinement.
                     </p>
 
                     {/* Call-to-Action (CTA) */}
