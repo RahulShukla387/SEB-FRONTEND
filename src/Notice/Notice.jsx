@@ -80,21 +80,35 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
+import jwtDecode from "jwt-decode";
+
 
 function Notice() {
   const [Data, setData] = useState([]);
   const [user, setUser] = useState(null);
 
-  useEffect(() => {
-    const token = localStorage.getItem("token");
-    if (!token) return;
+  // useEffect(() => {
+  //   const token = localStorage.getItem("token");
+  //   if (!token) return;
 
-    axios.get(`${BACKEND_URL}/api/debug`, {
-      headers: { Authorization: `Bearer ${token}` },
-    })
-    .then(res => setUser(res.data.user))
-    .catch(err => console.error(err));
-  }, []);
+  //   axios.get(`${BACKEND_URL}/api/debug`, {
+  //     headers: { Authorization: `Bearer ${token}` },
+  //   })
+  //   .then(res => setUser(res.data.user))
+  //   .catch(err => console.error(err));
+  // }, []);
+
+  useEffect(() => {
+  const token = localStorage.getItem("token");
+  if (!token) return;
+
+  try {
+    const decoded = jwtDecode(token);
+    setUser(decoded);  // decoded contains role, email, name, etc.
+  } catch (e) {
+    console.error("Invalid token", e);
+  }
+}, []);
 
   async function getData() {
     const res = await axios.post(`${BACKEND_URL}/api/getNotice`);

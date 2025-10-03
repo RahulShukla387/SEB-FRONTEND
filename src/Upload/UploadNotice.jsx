@@ -115,6 +115,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { Typography } from '@mui/material';
 import Notice from "../Notice/Notice";
+import jwtDecode from "jwt-decode";
 
 const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
 
@@ -124,16 +125,28 @@ function UploadNotice() {
   const [title, setTitle] = useState("");
 
   // Fetch current user using JWT
-  useEffect(() => {
-    const token = localStorage.getItem("token");
-    if (!token) return;
+//   useEffect(() => {
+//   const token = localStorage.getItem("token");
+//   if (!token) return;
 
-    axios.get(`${BACKEND_URL}/api/debug`, {
-      headers: { Authorization: `Bearer ${token}` },
-    })
-    .then(res => setUser(res.data.user))
-    .catch(err => console.error(err));
-  }, []);
+//   axios.get(`${BACKEND_URL}/api/debug`, {
+//     headers: { Authorization: `Bearer ${token}` },
+//   })
+//   .then(res => setUser(res.data.user))
+//   .catch(err => console.error(err));
+// }, []);
+
+useEffect(() => {
+  const token = localStorage.getItem("token");
+  if (!token) return;
+
+  try {
+    const decoded = jwtDecode(token);
+    setUser(decoded);  // decoded contains role, email, name, etc.
+  } catch (e) {
+    console.error("Invalid token", e);
+  }
+}, []);
 
   const handleUpload = async (e) => {
     e.preventDefault();
