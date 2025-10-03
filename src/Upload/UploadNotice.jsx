@@ -115,7 +115,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { Typography } from '@mui/material';
 import Notice from "../Notice/Notice";
-import jwtDecode from "jwt-decode";
+import * as jwtDecode from "jwt-decode";
 
 const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
 
@@ -141,7 +141,7 @@ useEffect(() => {
   if (!token) return;
 
   try {
-    const decoded = jwtDecode(token);
+    const decoded = jwtDecode.default(token);
     setUser(decoded);  // decoded contains role, email, name, etc.
   } catch (e) {
     console.error("Invalid token", e);
