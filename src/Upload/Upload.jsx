@@ -14,11 +14,6 @@ name: "Upload Notice",
 photo: "/images/noticeimg.png",
 link: "/api/UploadNotice",
 },
-// {
-// name: "Upload Poster",
-// photo: "/images/Posterimg.png",
-// link: "/api/UploadPoster"
-// },
 
 
 ];

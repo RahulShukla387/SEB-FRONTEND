@@ -16,7 +16,6 @@ function UploadNotice() {
       .then(res => setUser(res.data.user))
       .catch(err => console.error(err));
   }, []);
-
   const handleUpload = async (e) => {
     e.preventDefault();
     if (!file || !title) return;
