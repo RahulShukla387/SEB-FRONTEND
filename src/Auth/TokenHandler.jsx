@@ -10,7 +10,7 @@ function TokenHandler() {
     const token = params.get("token");
     if (token) {
       localStorage.setItem("token", token);
-      navigate("/UploadNotice", { replace: true });
+      navigate("/api/UploadNotice", { replace: true });
     } else {
       navigate("/", { replace: true });
     }
