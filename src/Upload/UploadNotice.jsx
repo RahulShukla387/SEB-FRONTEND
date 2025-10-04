@@ -115,7 +115,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { Typography } from '@mui/material';
 import Notice from "../Notice/Notice";
-import jwtDecode from "jwt-decode";
+import {jwtDecode} from "jwt-decode";
 
 const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
 
