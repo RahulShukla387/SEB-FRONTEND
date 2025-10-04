@@ -14,7 +14,7 @@ import Event from './Events/Event'
 import Gallery from './Gallery/Gallery'
 import Notice from './Notice/Notice'
 import Upload from './Upload/Upload'
-
+import TokenHandler from './Auth/TokenHandler'
 import DhishaanEvent from './Events/DhishaanEvent'
 import DrishyaaEvent from './Events/DrishyaaEvent'
 // import UtthaanEvent from './Events/UtthaanEvent'
@@ -44,6 +44,7 @@ function App() {
           <Route path='/api/UploadNotice' element={<UploadNotice/>} />
           <Route path='/api/UploadPoster' element={<UploadPoster/>} />
           <Route path='/api/CurrentEvent' element={<CurrentEvent/>} />
+            <Route path='/uploadNotice' element={<TokenHandler />} />
         </Routes>
       </main>
 

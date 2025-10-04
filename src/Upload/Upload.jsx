@@ -143,23 +143,11 @@
 import { Typography } from '@mui/material';
 import { Card, CardContent, CardMedia, Grid } from "@mui/material";
 import { useNavigate } from 'react-router-dom';
-import { useEffect } from 'react';
 
 const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
 
 function Upload() {
   const navigate = useNavigate();
-
-  // Handle OAuth JWT after redirect
-  useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    const token = params.get("token");
-    if (token) {
-      localStorage.setItem("token", token);
-      // Optionally, remove token from URL to clean it
-      window.history.replaceState({}, document.title, window.location.pathname);
-    }
-  }, []);
 
   const events = [
     {
@@ -168,11 +156,6 @@ function Upload() {
       link: "/UploadNotice",
     },
   ];
-
-  const handleLogout = () => {
-    localStorage.removeItem("token");
-    navigate("/"); // redirect to homepage after logout
-  };
 
   return (
     <div className='mt-[5%]'>
@@ -206,7 +189,7 @@ function Upload() {
           </a>
 
           <button
-            onClick={handleLogout}
+            onClick={() => localStorage.removeItem("token")}
             className="px-6 py-2 bg-gray-200 text-gray-800 font-semibold rounded-lg shadow-md hover:bg-gray-300 transition-colors"
           >
             Logout
