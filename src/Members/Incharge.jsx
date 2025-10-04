@@ -20,7 +20,7 @@ const members = [
 name: "Bhavya Srivastava",
 designation: "Secretery",
 Year: "Final Year",
-Branch: "CSE",
+Branch: "CSED",
 photo: "/members/IMG-20250906-WA0007 - Bhavya Srivastava (2).jpg",
 },
 

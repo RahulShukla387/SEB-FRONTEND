@@ -9,7 +9,7 @@ const members = [
     { name: "Amit Kanojiya", Year: "Pre Final Year", Branch: "EED", photo: "/members/28c1c469c36c9278523d485165d3e4e9249e04ae449a78024cd4969539f92646 - Amit Kanaujiya.jpg" },
     { name: "Vaishnavi Shukla", Year: "Pre Final Year", Branch: "MED", photo: "/members/IMG_20250904_223659 - AVS.jpg" },
     { name: "Ankita Agrahari", Year: "Pre Final Year", Branch: "CSED", photo: "/members/Snapchat-1919705206 - Ankita Agrahari (1).jpg" },
-    { name: "Priyanshu Mathur", Year: "Pre Final Year", Branch: "CSED", photo: "/members/DSC_6775_2 - Priyanshu Mathur.JPG" },
+    { name: "Priyanshu Mathur", Year: "Pre Final Year", Branch: "CED", photo: "/members/DSC_6775_2 - Priyanshu Mathur.JPG" },
     { name: "Anshika Chaudhary", Year: "Pre Final Year", Branch: "CED", photo: "/members/IMG_20250929_181700 - Anshika Chaudhary (1).jpg" },
     { name: "Divyansh Singh", Year: "Pre Final Year", Branch: "CED", photo: "/members/IMG_4893 - _Divyansh.jpg" },
     { name: "Harshit Jaiswal", Year: "Pre Final Year", Branch: "CED", photo: "/members/IMG-20250720-WA0389 - Harshit (1).jpg" },
