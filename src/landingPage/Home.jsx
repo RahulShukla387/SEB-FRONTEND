@@ -58,6 +58,9 @@ const Home = () => {
                     {/* Headline: Bold and prominent */}
                     <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight text-gray-900 mb-6">
                         <span className="block">Grooming Personalities.</span>
+                    </h1>
+                    <h1 className="text-2xl sm:text-4xl font-extrabold tracking-tight text-gray-900 mb-6">
+                    
                         <span className="block text-[${sebPrimary}] mt-1 md:mt-2">Shaping Tomorrow.</span>
                     </h1>
                     
@@ -67,7 +70,9 @@ const Home = () => {
                     </p>
 
                     {/* Call-to-Action (CTA) */}
-                    <div className="mt-10 flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                    <div className="mt-10 flex flex-row sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                        <div    onClick={() => window.location.href = "/api/CurrentEvent"} style={{cursor: "pointer", borderRadius: "4px"}} >
+                        <img src="\images\DrishyaaFormLive.png" alt="" height={300} borderRadius = {4}  /> <br />
                         <a 
                             href="/api/CurrentEvent" 
                             // Replicating card-shadow hover logic with native Tailwind utility classes
@@ -75,6 +80,7 @@ const Home = () => {
                         >
                             Join The Live Events Of Drishyaa &rarr;
                         </a>
+                        </div>
                     </div>
 
                     {/* SVG Graphic for Growth and Network */}

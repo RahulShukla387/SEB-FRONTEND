@@ -15,7 +15,23 @@ function CurrentEvent() {
           className="inline-block bg-blue-600 text-white font-medium px-6 py-3 rounded-lg shadow-md hover:bg-blue-700 hover:shadow-lg transition duration-300"
         >
           Sherlock Holmes 🔍
-        </a>
+        </a>  <br/> <br/><br/> &nbsp; &nbsp;
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSc6IHRl-9mMZ5-pEywX2jaJdAcp3v6W09KxuC-_SY0147j2KA/viewform"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-blue-600 text-white font-medium px-6 py-3 rounded-lg shadow-md hover:bg-blue-700 hover:shadow-lg transition duration-300"
+        >
+         Ground Zero
+        </a>   <br/><br/><br/> &nbsp; &nbsp;
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSf_ffu8PgW1KU84ZV_QKulaEUFOmigw9kpYBIGQclsIFlo-Hg/viewform"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-blue-600 text-white font-medium px-6 py-3 rounded-lg shadow-md hover:bg-blue-700 hover:shadow-lg transition duration-300"
+        >
+         Resume x 
+        </a>   <br/> <br/><br/> &nbsp; &nbsp;
       </div>
     </div>
   );

@@ -8,7 +8,7 @@ const members = [
     { name: "Prathit Mishra", Year: "Sophomore Year", Branch: "EED", photo: "/images/Screenshot_20250927_035519_Gallery - Prathit (1).jpg" },
     { name: "Aditya Mishra", Year: "Sophomore Year", Branch: "ECED", photo: "/images/Aditya Mishra.jpg" },
     { name: "Devesh Singh", Year: "Sophomore Year", Branch: "ECE", photo: "/images/IMG_20241229_180114181 - Devesh Singh.jpg" },
-    { name: "Abhishek Tiwari", Year: "Sophomore Year", Branch: "ECED", photo: "/images/IMG_20250216_225502 - Abhishek Tiwari.jpg" },
+    { name: "Abhishek Tiwari", Year: "Sophomore Year", Branch: "ECED", photo: "/images/abhishekTiwariNew.jpg" },
     { name: "Shweta Gautam", Year: "Sophomore Year", Branch: "CSED", photo: "/images/IMG_20250303_144112 - Shweta Gautam.jpg" },
     { name: "Shreya Singh", Year: "Sophomore Year", Branch: "CSED", photo: "/images/Shreya Singh.jpg" },
     { name: "Aditya Jaiswal", Year: "Sophomore Year", Branch: "CED", photo: "/images/IMG_20250520_140627 - Aditya Jaiswal.jpg" },
