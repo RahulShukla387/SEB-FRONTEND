@@ -6,6 +6,7 @@ function TokenHandler() {
   const location = useLocation();
 
   useEffect(() => {
+    console.log("TokenHandler loaded, location:", location.search);
     const params = new URLSearchParams(location.search);
     const token = params.get("token");
     if (token) {
