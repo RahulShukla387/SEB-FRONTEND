@@ -56,9 +56,9 @@
 //             >
 //               {notice.title}
 //             </a>
-            
+
 //             {/* Delete Button */}
-        
+
 //         {   
 //         user && user.role === "admin" &&(
 //         <button 
@@ -80,7 +80,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
-import {jwtDecode} from "jwt-decode";
+import { jwtDecode } from "jwt-decode";
 
 
 function Notice() {
@@ -99,16 +99,16 @@ function Notice() {
   // }, []);
 
   useEffect(() => {
-  const token = localStorage.getItem("token");
-  if (!token) return;
+    const token = localStorage.getItem("token");
+    if (!token) return;
 
-  try {
-    const decoded = jwtDecode(token);
-    setUser(decoded);  // decoded contains role, email, name, etc.
-  } catch (e) {
-    console.error("Invalid token", e);
-  }
-}, []);
+    try {
+      const decoded = jwtDecode(token);
+      setUser(decoded);  // decoded contains role, email, name, etc.
+    } catch (e) {
+      console.error("Invalid token", e);
+    }
+  }, []);
 
   async function getData() {
     const res = await axios.post(`${BACKEND_URL}/api/getNotice`);
@@ -140,7 +140,7 @@ function Notice() {
             key={index}
             className="bg-white shadow-md rounded-lg p-4 hover:shadow-xl transition-shadow duration-300 flex justify-between items-center"
           >
-            <a
+            {/* <a
               href={notice.imgUrl}
               download={notice.originalName || notice.title}
               target="_blank"
@@ -148,20 +148,29 @@ function Notice() {
               className="text-blue-600 font-semibold hover:text-blue-800 hover:underline transition-colors duration-200"
             >
               {notice.title}
+            </a> */}
+
+                 <a
+              href={`${BACKEND_URL}/api/download/${notice._id}`}
+              download={notice.originalName || notice.title || "notice"}
+              className="text-blue-600 font-semibold hover:text-blue-800 hover:underline transition-colors duration-200"
+            >
+              {notice.title}
             </a>
 
-            {user && user.role === "admin" && (
-              <button 
-                onClick={() => deleteNotice(notice._id)}
-                className="bg-red-500 text-white px-3 py-1 rounded-md hover:bg-red-600 transition-colors duration-200"
-              >
-                Delete
-              </button>
-            )}
-          </div>
-        ))}
-      </ul>
+            { user && user.role === "admin" && (
+            <button
+              onClick={() => deleteNotice(notice._id)}
+              className="bg-red-500 text-white px-3 py-1 rounded-md hover:bg-red-600 transition-colors duration-200"
+            >
+              Delete
+            </button>
+          )}
     </div>
+  ))
+}
+      </ul >
+    </div >
   );
 }
 
