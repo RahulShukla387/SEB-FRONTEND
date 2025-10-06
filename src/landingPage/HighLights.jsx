@@ -304,7 +304,7 @@ const Icon = ({ name, className }) => {
   <>
     <section id="about" className=" px-[5%]">
         <div className="container mx-auto px-6 text-center">
-            <p className="section-subtitle">The Social Engineers' Board is a student-led society at MMMUT dedicated to fostering personal and professional growth. We are a community of thinkers, leaders, and helpers, passionate about making a positive impact.</p>
+            <p className="  section-subtitle">The Social Engineers' Board is a student-led society at MMMUT dedicated to fostering personal and professional growth. We are a community of thinkers, leaders, and helpers, passionate about making a positive impact.</p>
         
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
