@@ -23,10 +23,10 @@ function Footer() {
   Grooming Personality
 </Typography> */}
 
-        <div className="grid lg:grid-cols-[0.1fr_2fr_2fr_2fr_2fr_0.1fr]    ">
+        <div className=" xs:ml-[8%] grid lg:grid-cols-[0.1fr_2fr_2fr_2fr_2fr_0.1fr]    ">
             <div></div>
   <div className="">
-    <img className=' lg:w-1/3 , sm:w-1/6 ' src="\images\seblogo-removebg-preview.png" alt="" />
+    <img className=' lg:w-1/3 , xs: w-1/4 sm:w-1/6 ' src="\images\seblogo-removebg-preview.png" alt="" />
     <p className='font-serif '> ©  The Social Engineers' Board, MMMUT.<br />
      All Rights Reserved </p>
   </div>
