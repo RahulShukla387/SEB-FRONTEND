@@ -9,11 +9,14 @@ function About() {
   const images = [
     "/images/indn3.png",
     "/images/Drishyaa5.png",
-    "/images/glimpse1.png",
+    "/gallery/ng3.jpg",
+    // "/images/glimpse1.png",
     "/images/dhishani4.JPG",
+    "/gallery/ng5.jpg",
     "/images/dhishani3.JPG",
-    "/images/indn2.png",
-    "/images/indn1.png"
+    // "/images/indn2.png",
+    "/gallery/ng9.jpg",
+    // "/images/indn1.png"
   ];
 
     return ( 

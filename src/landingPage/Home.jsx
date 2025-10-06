@@ -49,11 +49,11 @@ const Home = () => {
     return (
         // The main container for the content, replacing the <body> tag content
         // We use the custom background color and font setup here
-        <div className={`font-sans bg-[${sebBackground}] text-gray-800 min-h-screen`}>
+        <div className={`font-sans text-gray-800 min-h-screen`}>
 
 
             {/* SECTION I: HERO - Direct and Inspiring */}
-            <section id="hero" className="pb-16 md: md:pb-24 bg-white">
+            <section id="hero" className="pb-16 md: md:pb-24 ">
                 <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                     {/* Headline: Bold and prominent */}
                     <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight text-gray-900 mb-6">
@@ -65,10 +65,11 @@ const Home = () => {
                     </h1>
                     
                     {/* Sub-Headline: Clear mission statement */}
-                    <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
+                    <p className=" mt-10 mb-4 text-lg text-gray-600 max-w-3xl mx-auto">
                         The Social Engineers' Board is a student-led society at MMMUT dedicated to fostering <strong className="font-semibold">holistic</strong> personal and professional growth through community action and skill refinement.
+                    {/* <img src="/gallery/SocialEngineer.png" alt="" /> */}
                     </p>
-
+                    
                     {/* Call-to-Action (CTA) */}
                     <div className="mt-10 flex flex-row sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
                         <div    onClick={() => window.location.href = "/api/CurrentEvent"} style={{cursor: "pointer", borderRadius: "4px"}} >

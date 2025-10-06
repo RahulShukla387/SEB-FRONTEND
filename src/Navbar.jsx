@@ -2,7 +2,7 @@
 
 // export default Navbar;
 import React, { useState, useEffect } from 'react';
-
+// import { faImages } from '@fortawesome/free-solid-svg-icons';
 // --- SVG Icon Component ---
 // I've replaced the FontAwesome icons with inline SVGs to remove external dependencies
 // that were causing the compilation error.
@@ -28,6 +28,7 @@ const Icon = ({ name, className }) => {
         case 'upload':
             return <svg {...iconProps}><path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" /></svg>;
         case 'Gallery':
+                
   return (
     <svg {...iconProps} fill="none" viewBox="0 0 24 24" stroke="currentColor">
       <path
@@ -55,7 +56,7 @@ const pages = [
     { label: "Members", path: "/Members", icon: "users" },
     { label: "Events", path: "/Events", icon: "calendar" },
     { label: "Notice", path: "/Notice", icon: "bullhorn" },
-    { label: "Gallery", path: "/Gallery", icon: "bullhorn" },
+    { label: "Gallery", path: "/Gallery", icon: "Gallery" },
     { label: "Upload", path: "/Upload", icon: "upload" },
 ];
 

@@ -2,7 +2,8 @@
   body {
   min-width: 320px;
   min-height: 100vh;
-  /* background: linear-gradient(135deg, #F8F9FA 0%, #E0E0E0 100%); */
+  background:  linear-gradient(145deg, #ffffff, #e0f2fe, #dbeafe);
+  /* background: linear-gradient(to bottom, #e0f2fe, #f0f9ff); */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
