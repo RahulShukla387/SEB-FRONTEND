@@ -65,13 +65,13 @@ const Home = () => {
                     </h1>
                     
                     {/* Sub-Headline: Clear mission statement */}
-                    <p className=" mt-10 mb-4 text-lg text-gray-600 max-w-3xl mx-auto">
+                    <p className=" sm:space-x-6 text-start mt-10 mb-4 text-lg text-gray-600 max-w-3xl mx-auto">
                         The Social Engineers' Board is a student-led society at MMMUT dedicated to fostering <strong className="font-semibold">holistic</strong> personal and professional growth through community action and skill refinement.
                     {/* <img src="/gallery/SocialEngineer.png" alt="" /> */}
                     </p>
                     
                     {/* Call-to-Action (CTA) */}
-                    <div className="mt-10 flex flex-row sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                    <div className="mt-10 flex flex-row sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
                         <div    onClick={() => window.location.href = "/api/CurrentEvent"} style={{cursor: "pointer", borderRadius: "4px"}} >
                         <img src="/Drishyaa/DrishyaaMain.png" alt="" height={350} borderRadius = {4}  /> <br />
                         <a 
