@@ -8,16 +8,17 @@ const SEB_SECONDARY = '#F59E0B'; // Changed back to a more vibrant accent color
 // --- Gallery Data (Unchanged) ---
 const galleryData = [
     { id: 1, url: "/images/gallery2.JPG" },
-    { id: 2, url: "/images/glimpse3.png" },
-    { id: 3, url: "/images/indn2.png" },
-    { id: 4, url: "/images/glimpse2.png" },
+    { id: 2, url: "/gallery/ng1.jpg" },
+    { id: 3, url: "/gallery/ng2.jpg" },
+    { id: 4, url: "/gallery/ng3.jpg" },
     { id: 5, url: "/images/gallery1.JPG" },
-    { id: 6, url: "/images/glimpse5.png" },
-    { id: 7, url: "/images/glimpse4.png" },
-    { id: 8, url: "/images/glimpse1.png" },
-    { id: 9, url: "/images/indn4.png" },
-    { id: 10, url: "/images/indn1.png" },
+    { id: 6, url: "/gallery/ng4.jpg" },
+    { id: 7, url: "/gallery/ng5.jpg" },
+    { id: 8, url: "/gallery/ng6.jpg" },
+    { id: 9, url: "/gallery/ng7.jpg" },
+    { id: 10, url: "/gallery/ng8.jpg" },
     { id: 11, url: "/images/gallery3.JPG" },
+    { id: 11, url: "/gallery/ng9.jpg" },
 ];
 
 // --- Custom Styles (Unchanged) ---

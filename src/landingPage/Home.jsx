@@ -4,40 +4,40 @@
 import React from 'react';
 
 // Reusable component for the abstract SVG graphic (Growth and Network)
-const GrowthNetworkGraphic = () => (
-    <div className=" max-w-lg mx-auto w-full">
-        <svg className="w-full h-auto" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
-            {/* Abstract Background Shape (Soft Glow) */}
-            <circle cx="200" cy="100" r="100" fill="url(#gradientCenter)" opacity="0.15"/>
-            <defs>
-                <radialGradient id="gradientCenter" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
-                    {/* Using direct hex/rgb values since custom Tailwind colors are not defined in this scope */}
-                    <stop offset="0%" style={{stopColor: 'rgb(30, 58, 138)', stopOpacity: 1}} />
-                    <stop offset="100%" style={{stopColor: 'rgb(249, 250, 251)', stopOpacity: 1}} />
-                </radialGradient>
-                {/* Gradient for the main line to give an upward glow */}
-                <linearGradient id="upwardGradient" x1="0%" y1="100%" x2="0%" y2="0%">
-                    <stop offset="0%" style={{stopColor: '#1E3A8A', stopOpacity: 0.3}} />
-                    <stop offset="100%" style={{stopColor: '#F59E0B', stopOpacity: 1}} />
-                </linearGradient>
-            </defs>
+// const GrowthNetworkGraphic = () => (
+//     <div className=" max-w-lg mx-auto w-full">
+//         <svg className="w-full h-auto" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+//             {/* Abstract Background Shape (Soft Glow) */}
+//             <circle cx="200" cy="100" r="100" fill="url(#gradientCenter)" opacity="0.15"/>
+//             <defs>
+//                 <radialGradient id="gradientCenter" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+//                     {/* Using direct hex/rgb values since custom Tailwind colors are not defined in this scope */}
+//                     <stop offset="0%" style={{stopColor: 'rgb(30, 58, 138)', stopOpacity: 1}} />
+//                     <stop offset="100%" style={{stopColor: 'rgb(249, 250, 251)', stopOpacity: 1}} />
+//                 </radialGradient>
+//                 {/* Gradient for the main line to give an upward glow */}
+//                 <linearGradient id="upwardGradient" x1="0%" y1="100%" x2="0%" y2="0%">
+//                     <stop offset="0%" style={{stopColor: '#1E3A8A', stopOpacity: 0.3}} />
+//                     <stop offset="100%" style={{stopColor: '#F59E0B', stopOpacity: 1}} />
+//                 </linearGradient>
+//             </defs>
 
-            {/* Dynamic Network Lines (Growth/Connections) */}
-            <path d="M50 150 Q100 50 200 100 T350 50" stroke="#1E3A8A" strokeWidth="2" fill="none" opacity="0.3"/>
-            <path d="M50 170 Q150 190 250 130 T350 100" stroke="#F59E0B" strokeWidth="2" fill="none" opacity="0.4"/>
+//             {/* Dynamic Network Lines (Growth/Connections) */}
+//             <path d="M50 150 Q100 50 200 100 T350 50" stroke="#1E3A8A" strokeWidth="2" fill="none" opacity="0.3"/>
+//             <path d="M50 170 Q150 190 250 130 T350 100" stroke="#F59E0B" strokeWidth="2" fill="none" opacity="0.4"/>
 
-            {/* Main Upward Trajectory Line (Shaping Tomorrow) */}
-            <path d="M100 180 C150 150, 250 50, 300 20" stroke="url(#upwardGradient)" strokeWidth="4" fill="none" strokeLinecap="round"/>
+//             {/* Main Upward Trajectory Line (Shaping Tomorrow) */}
+//             <path d="M100 180 C150 150, 250 50, 300 20" stroke="url(#upwardGradient)" strokeWidth="4" fill="none" strokeLinecap="round"/>
 
-            {/* Nodes (Personalities/Engineers) */}
-            <circle cx="300" cy="20" r="6" fill="#F59E0B"/>
-            <circle cx="250" cy="130" r="5" fill="#1E3A8A"/>
-            <circle cx="50" cy="170" r="5" fill="#1E3A8A"/>
-            <circle cx="200" cy="100" r="7" fill="#1E3A8A"/>
-            <circle cx="350" cy="100" r="5" fill="#1E3A8A"/>
-        </svg>
-    </div>
-);
+//             {/* Nodes (Personalities/Engineers) */}
+//             <circle cx="300" cy="20" r="6" fill="#F59E0B"/>
+//             <circle cx="250" cy="130" r="5" fill="#1E3A8A"/>
+//             <circle cx="50" cy="170" r="5" fill="#1E3A8A"/>
+//             <circle cx="200" cy="100" r="7" fill="#1E3A8A"/>
+//             <circle cx="350" cy="100" r="5" fill="#1E3A8A"/>
+//         </svg>
+//     </div>
+// );
 
 
 const Home = () => {
@@ -72,7 +72,7 @@ const Home = () => {
                     {/* Call-to-Action (CTA) */}
                     <div className="mt-10 flex flex-row sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
                         <div    onClick={() => window.location.href = "/api/CurrentEvent"} style={{cursor: "pointer", borderRadius: "4px"}} >
-                        <img src="\images\DrishyaaFormLive.png" alt="" height={300} borderRadius = {4}  /> <br />
+                        <img src="/Drishyaa/DrishyaaMain.png" alt="" height={350} borderRadius = {4}  /> <br />
                         <a 
                             href="/api/CurrentEvent" 
                             // Replicating card-shadow hover logic with native Tailwind utility classes
@@ -84,12 +84,12 @@ const Home = () => {
                     </div>
 
                     {/* SVG Graphic for Growth and Network */}
-                    <GrowthNetworkGraphic />
+                    {/* <GrowthNetworkGraphic /> */}
 
                     {/* Origin Statement */}
-                    <p className="mt-10 text-sm text-gray-500 max-w-3xl mx-auto">
+                    {/* <p className="mt-10 text-sm text-gray-500 max-w-3xl mx-auto">
                         Established in 2013 by students of MMMEC: Naveen Krishna Rai and Mohit Jha (ECE, 2016 passout).
-                    </p>
+                    </p> */}
                 </div>
             </section>
         </div>

@@ -107,7 +107,7 @@ function Drishyaa() {
                 <FeatureSection
                     title="Inspiring Meaningful Change"
                     description="With this event, we aspire to create meaningful impact and inspire change. Together, let’s empower students and build a stronger tomorrow."
-                    imageUrl="/images/Drishyaa5.png"
+                    imageUrl="/images/Drishyaa1.png"
                     imageOnLeft={true} // Image on the left
                 />
             </Box>

@@ -13,7 +13,7 @@ const members = [
     { name: "Anshika Chaudhary", Year: "Pre Final Year", Branch: "CED", photo: "/members/IMG_20250929_181700 - Anshika Chaudhary (1).jpg" },
     { name: "Divyansh Singh", Year: "Pre Final Year", Branch: "CED", photo: "/members/IMG_4893 - _Divyansh.jpg" },
     { name: "Harshit Jaiswal", Year: "Pre Final Year", Branch: "CED", photo: "/members/IMG-20250720-WA0389 - Harshit (1).jpg" },
-    { name: "Mridul Goel", Year: "Pre Final Year", Branch: "CED", photo: "/members/IMG-20240503-WA0046 - Mridul Goel (1).jpg" },
+    // { name: "Mridul Goel", Year: "Pre Final Year", Branch: "CED", photo: "/members/IMG-20240503-WA0046 - Mridul Goel (1).jpg" },
     { name: "Rahul Singh", Year: "Pre Final Year", Branch: "CHED", photo: "/members/IMG_20240429_111437 - Rahul Singh.jpg" },
       {
     name: "Kartikey Yadav",
@@ -27,12 +27,12 @@ const members = [
     Branch: "EED",
     // photo: "/images/Shivam Sir Faculty Advisor.jpg",
   },
-    {
-    name: "Abhinav Sahani",
-    Year: "Pre Final Year",
-    Branch: "CHED",
-    // photo: "/images/Shivam Sir Faculty Advisor.jpg",
-  },
+//     {
+//     name: "Abhinav Sahani",
+//     Year: "Pre Final Year",
+//     Branch: "CHED",
+//     // photo: "/images/Shivam Sir Faculty Advisor.jpg",
+//   },
 ];
 
 function Members() {
