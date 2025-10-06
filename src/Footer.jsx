@@ -47,10 +47,10 @@ function Footer() {
   </div>
   <div className=''>
     <h1 className='font-mono text-xl  '> <u> Connect Us </u> </h1>
-    <a className=' text-3xl ' href="https://www.instagram.com/seb.mmmut/"> < FaInstagram/> </a> &nbsp; &nbsp; &nbsp; <br />
-    <a className=' text-3xl ' href="https://www.facebook.com/seb.mmmut"> <FaFacebook/>  </a> <br />
-    <a className=' text-3xl ' href="https://www.linkedin.com/company/the-social-engineers-board-mmmut/"> <FaLinkedin/>  </a> <br />
-   <b> sendusatseb@gmail.com  </b> 
+    <a className=' text-3xl ' href="https://www.instagram.com/seb.mmmut/"> < FaInstagram/> Instagram </a> &nbsp; &nbsp; &nbsp; <br />
+    <a className=' text-3xl ' href="https://www.facebook.com/seb.mmmut"> <FaFacebook/> Facebook </a> <br />
+    <a className=' text-3xl ' href="https://www.linkedin.com/company/the-social-engineers-board-mmmut/"> <FaLinkedin/> Linkedin </a> <br />
+   <b> sendusat <b>seb@gmail.com</b>   </b> 
   </div>
   <div></div>
 </div>
