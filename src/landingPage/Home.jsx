@@ -73,7 +73,7 @@ const Home = () => {
                     {/* Call-to-Action (CTA) */}
                     <div className="mt-10 flex flex-row sm:flex-row justify-center space-y-4 sm:space-y-0 max-sm:space-x-4">
                         <div     onClick={() => window.location.href = "/api/CurrentEvent"} style={{cursor: "pointer", borderRadius: "4px"}} >
-                        <img src="/Drishyaa/DrishyaaMain.png" alt="" height={450} borderRadius = {4}  /> <br />
+                        <img src="/Drishyaa/DrishyaaMain.png" alt="" height={380} borderRadius = {4}  /> <br />
                         <a 
                             href="/api/CurrentEvent" 
                             // Replicating card-shadow hover logic with native Tailwind utility classes
