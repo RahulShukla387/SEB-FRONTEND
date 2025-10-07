@@ -35,7 +35,8 @@ function CurrentEvent() {
         >
          Resume x 
         </a>   <br/> <br/><br/> &nbsp; &nbsp; */}
-        <div className='flex flex-col gap-20 md:flex-row md:gap-15 justify-center items-center'>
+        {/* <div className='flex flex-col gap-20 md:flex-row md:gap-15 justify-center items-center'> */}
+          <div className='flex mb-10 flex-col gap-20 md:flex-row md:gap-15 justify-center items-center'  >
         <span  onClick={() => window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSf_ffu8PgW1KU84ZV_QKulaEUFOmigw9kpYBIGQclsIFlo-Hg/viewform"} style={{ cursor: "pointer", borderRadius: "4px" }} >
           <img src="/Drishyaa/ResumeX.jpg" alt="" height={350} borderRadius={4} /> 
           Click here
@@ -48,9 +49,20 @@ function CurrentEvent() {
           <img src="/Drishyaa/BrainoMath.jpg" alt="" height={350} borderRadius={4} /> 
           Click here
         </span>
+          </div>
+          <div className='flex flex-col gap-20 md:flex-row md:gap-15 justify-center items-center' >
+        <span onClick={() => window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSdUEosxnuyp3yMMPAEervWmq7tb-oxXi3onnzoy8_ZKdNOy1A/viewform"} style={{ cursor: "pointer", borderRadius: "4px" }} >
+          <img src="/Drishyaa/PowerPlay.jpg" alt="" height={350} borderRadius={4} /> 
+          Click here
+        </span>
+        <span onClick={() => window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSdDLHKfFpAAyAAJFqGFqW9BqVi9CUzq7cnieNGvwrCTs7YdOQ/viewform"} style={{ cursor: "pointer", borderRadius: "4px" }} >
+          <img src="/Drishyaa/Artisian.jpg" alt="" height={350} borderRadius={4} /> 
+          Click here
+        </span>
+        </div>
            </div>
       </div>
-    </div>
+    // </div>
   );
 }
 

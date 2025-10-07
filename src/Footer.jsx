@@ -50,7 +50,7 @@ function Footer() {
     <a className=' text-white ' href="https://www.instagram.com/seb.mmmut/"> < FaInstagram/> Instagram </a> &nbsp; &nbsp; &nbsp; <br />
     <a className=' text-white ' href="https://www.facebook.com/seb.mmmut"> <FaFacebook/> Facebook </a> <br />
     <a className=' text-white ' href="https://www.linkedin.com/company/the-social-engineers-board-mmmut/"> <FaLinkedin/> Linkedin </a> <br />
-   <b> sendusat <b>seb@gmail.com</b>   </b> 
+    <a className='text-white' href="mailto:sebmmmut.info@gmail.com">sebmmmut.info@gmail.com</a>
   </div>
   <div></div>
 </div>
