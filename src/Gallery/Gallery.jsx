@@ -9,9 +9,9 @@ const SEB_SECONDARY = '#F59E0B'; // Changed back to a more vibrant accent color
 const galleryData = [
     { id: 1, url: "/images/gallery2.JPG" },
     { id: 2, url: "/gallery/ng1.jpg" },
-    { id: 3, url: "/gallery/ng2.jpg" },
-    { id: 4, url: "/gallery/ng3.jpg" },
-    { id: 5, url: "/images/gallery1.JPG" },
+    { id: 3, url: "/images/Drishyaa4.png" },
+    { id: 4, url: "/images/dhishani5.JPG" },
+    { id: 5, url: "/images/dhishani4.JPG" },
     { id: 6, url: "/gallery/ng4.jpg" },
     { id: 7, url: "/gallery/ng5.jpg" },
     { id: 8, url: "/gallery/ng6.jpg" },

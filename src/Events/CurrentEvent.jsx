@@ -36,15 +36,17 @@ function CurrentEvent() {
          Resume x 
         </a>   <br/> <br/><br/> &nbsp; &nbsp; */}
         <div className='flex flex-col gap-20 md:flex-row md:gap-15 justify-center items-center'>
-        <span onClick={() => window.location.href = "https://unstop.com/p/resumex-mmmut-gorakhpur-1564848"} style={{ cursor: "pointer", borderRadius: "4px" }} >
+        <span  onClick={() => window.location.href = "https://unstop.com/p/resumex-mmmut-gorakhpur-1564848"} style={{ cursor: "pointer", borderRadius: "4px" }} >
           <img src="/Drishyaa/ResumeX.jpg" alt="" height={350} borderRadius={4} /> 
+          Click here
         </span>
         <span onClick={() => window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfcr78S0w0jGwBLyIXsBgHZ4CnIdjDDef730NUnD23aTNh8Ng/viewform"} style={{ cursor: "pointer", borderRadius: "4px" }} >
           <img src="/Drishyaa/SherlockHolmes.jpg" alt="" height={350} borderRadius={4} /> 
-
+           Click here
         </span>
         <span onClick={() => window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfUNZ-ALQqzJ39HuoggM47ta30okJ7dh-6tCVfyb5G2Pk9LhA/viewform"} style={{ cursor: "pointer", borderRadius: "4px" }} >
           <img src="/Drishyaa/BrainoMath.jpg" alt="" height={350} borderRadius={4} /> 
+          Click here
         </span>
            </div>
       </div>
