@@ -103,8 +103,14 @@ import { ArrowBackIosNew, ArrowForwardIos } from '@mui/icons-material';
 
 const members = [
     { name: "Devesh Yadav", Year: "Final Year", Branch: "MED", photo: "/images/deveshSirPresident.jpg", designation: "President" },
-    { name: "Prince Yadav", Year: "Final Year", Branch: "ECED", photo: "/members/gallery3.JPG", designation: "Vice-President" },
+    { name: "Prince Yadav", Year: "Final Year", Branch: "ECED", photo: "/members/PrinceYadavSirNew.jpg", designation: "Vice-President" },
     { name: "Bhavya Srivastava", Year: " Final Year", Branch: "CSED", photo: "/members/IMG-20250906-WA0007 - Bhavya Srivastava (2).jpg" , designation: "Secretery" },
+    { name: "Priya Chaudhary", Year: " Final Year", Branch: "CED", photo: "/members/PriyaChaudhary.jpg" , designation: "Treasurer" },
+    { name: "Sanjana Agrahari", Year: " Final Year", Branch: "ECED", photo: "/members/SanjanaAgrahari.jpg" , designation: "Editorial Head" },
+    { name: "Devraj Anand", Year: " Final Year", Branch: "EED", photo: "/images/DevrajAnand.jpg" , designation: "Technical Head" },
+    { name: "Divya Kumar Mishra", Year: " Final Year", Branch: "CED", photo: "/images/DivyaKumarMishra.jpg" , designation: "Technical Head" },
+    { name: "Sneha Jaiswal", Year: " Final Year", Branch: "CED", photo: "/members/SnehaJaiswal.jpg" , designation: "Editorial Head" },
+    { name: "Aditya Sharma", Year: " Final Year", Branch: "EED", photo: "/images/adityaSharma.jpg" , designation: "Treasurer" },
     
 ];
 
@@ -115,8 +121,8 @@ function Incharge() {
     const isSm = useMediaQuery(theme.breakpoints.up('sm'));
 
     const getVisibleCards = () => {
-        if (isLg) return 4;
-        if (isMd) return 3;
+        if (isLg) return 5;
+        if (isMd) return 4;
         if (isSm) return 2;
         return 1;
     };

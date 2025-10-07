@@ -19,7 +19,7 @@ const members = [
     name: "Kartikey Yadav",
     Year: "Pre Final Year",
     Branch: "EED",
-    // photo: "/images/Shivam Sir Faculty Advisor.jpg",
+    photo: "/images/kartikeyYadav.jpg",
   },
   {
     name: "Mayank Agarwal",
