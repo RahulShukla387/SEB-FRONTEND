@@ -36,7 +36,7 @@ function CurrentEvent() {
          Resume x 
         </a>   <br/> <br/><br/> &nbsp; &nbsp; */}
         <div className='flex flex-col gap-20 md:flex-row md:gap-15 justify-center items-center'>
-        <span  onClick={() => window.location.href = "https://unstop.com/p/resumex-mmmut-gorakhpur-1564848"} style={{ cursor: "pointer", borderRadius: "4px" }} >
+        <span  onClick={() => window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSf_ffu8PgW1KU84ZV_QKulaEUFOmigw9kpYBIGQclsIFlo-Hg/viewform"} style={{ cursor: "pointer", borderRadius: "4px" }} >
           <img src="/Drishyaa/ResumeX.jpg" alt="" height={350} borderRadius={4} /> 
           Click here
         </span>

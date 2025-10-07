@@ -54,9 +54,9 @@ const SEB_PRIMARY = 'rgba(111, 111, 206, 1)'; // Dark Blue
 const pages = [
     { label: "Home", path: "/", icon: "home" },
     { label: "Events", path: "/Events", icon: "calendar" },
-    { label: "Notice", path: "/Notice", icon: "bullhorn" },
-    { label: "Gallery", path: "/Gallery", icon: "Gallery" },
     { label: "Members", path: "/Members", icon: "users" },
+    { label: "Gallery", path: "/Gallery", icon: "Gallery" },
+    { label: "Notice", path: "/Notice", icon: "bullhorn" },
     { label: "Upload", path: "/Upload", icon: "upload" },
 ];
 
