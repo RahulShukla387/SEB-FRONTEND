@@ -57,7 +57,7 @@ const Home = () => {
                 <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                     {/* Headline: Bold and prominent */}
                     <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight text-gray-900 mb-6">
-                        <span className="block">Grooming Personalities.</span>
+                        <span className="block">Grooming Personality.</span>
                     </h1>
                     <h1 className="text-2xl sm:text-4xl font-extrabold tracking-tight text-gray-900 mb-6">
                     

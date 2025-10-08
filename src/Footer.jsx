@@ -32,7 +32,7 @@ function Footer() {
   </div>
   <div className="">
     <h1 className='font-mono text-xl  '> <u> Events </u> </h1>
-    <a className='text-white' href="/api/DrishyaaEvent">Drishya</a> <br />
+    <a className='text-white' href="/api/DrishyaaEvent">Drishyaa</a> <br />
     <a className='text-white' href="/api/DhishaanEvent">Dhishan</a> <br />
     <p className='font-mono text-xl  '>  </p>
 
