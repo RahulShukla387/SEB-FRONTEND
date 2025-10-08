@@ -37,7 +37,7 @@ function About() {
          Search For Weather !.
       </Typography> */}
         <p className='font-serif text-start ml-10'>The Social Engineers' Board was established by students of MMMEC, Naveen Krishna Rai (ECE, 2016 passout) and Mohit Jha (ECE, 2016 passout) in the year 2013.
-With the motto of <b> Grooming Personalities, </b>  the board aims at not only refining the engineering graduates academically, but holistically. It believes in the collective responsibility of the student fraternity towards the betterment of society and thus, constantly works in the direction of achieving this cause.
+With the motto of <b> Grooming Personality, </b>  the board aims at not only refining the engineering graduates academically, but holistically. It believes in the collective responsibility of the student fraternity towards the betterment of society and thus, constantly works in the direction of achieving this cause.
 The board tries to achieve its goals by a series of various events conducted throughout the academic year, both inside and outside the university.
 </p>
          
